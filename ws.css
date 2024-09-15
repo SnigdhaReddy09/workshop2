@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.parent1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size: large;
+}
+.parent1 img{
+    width: 100%;
+}
+.parent2, .parent3, .last1, .last2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size:medium;
+}
+button{
+    border: 2px solid lightblue;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: white;
+}
+.big{
+    width: 600px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+.card{
+    display: grid;
+    width: 200px;
+}
+a{
+    color: brown;
+}
